@@ -1,0 +1,18 @@
+{
+  "name": "snezka",
+  "version": "1.0.0",
+  "description": "Weather on the mountain Sněžka",
+  "main": "./src/index.js",
+  "scripts": {
+    "run": "node ./src/index.js"
+  },
+  "author": "Ondřej Schlaichert",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "ejs": "^3.1.9",
+    "express": "^4.18.3",
+    "express-minify": "^1.0.0",
+    "route-cache": "^0.7.0"
+  }
+}

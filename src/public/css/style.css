@@ -1,0 +1,39 @@
+html {
+	color: #27485d;
+	background-color: rgba(233, 242, 255, .873);
+	text-align: center
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse
+}
+
+td,
+th {
+	padding: 8px;
+	text-align: left;
+	border-bottom: 1px solid #b7daf0
+}
+
+th {
+	background-color: #fff
+}
+
+tr:hover {
+	background-color: #d2fbff
+}
+
+.snowflake {
+	height: 4rem;
+}
+
+.gallery {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.gallery .gallery-image img {
+	width: 40vw;
+}

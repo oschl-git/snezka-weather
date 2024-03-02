@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
+  <title>Sněžka ❄️</title>
+</head>
+
+<body>
+  <header>
+    <h1>Jak bude dnes na Sněžce?</h1>
+    <% if (!disableImages) { %>
+    <img class="snowflake" loading="lazy" src="/assets/snowflake-min.png" alt="Snowflake">
+    <% } %>
+  </header>
+  <table id="weather-table">
+    <thead>
+      <tr>
+        <th></th>
+        <th>Teplota (°C)</th>
+        <th>Déšť</th>
+        <th>Přeháňky</th>
+        <th>Sníh</th>
+        <th>Tlak (hPa)</th>
+      </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+  </table>
+
+  <% if (!disableImages) { %>
+  <h2>Jak to na Sněžce vypadá?</h2>
+  <div class="gallery">
+    <div class="gallery-image">
+      <img src="/assets/1-min.jpg" alt="Sněžka" loading="lazy">
+      <p>Občas takhle</p>
+    </div>
+    <div class="gallery-image">
+      <img src="/assets/2-min.jpg" alt="Sněžka" loading="lazy">
+      <p>Občas taky takhle</p>
+    </div>
+  </div>
+  <% } %>
+
+</body>
+
+<script src="/javascripts/display-weather-data.js"></script>
+
+</html>
