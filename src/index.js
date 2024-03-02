@@ -20,7 +20,7 @@ async function main() {
 		console.log('Recaching index route...');
 
 		res.render('index', {
-			disableImages: true,
+			disableImages: false,
 		});
 	});
 
